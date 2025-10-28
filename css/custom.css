@@ -1691,11 +1691,21 @@ body:has(.offcanvas) {
 }
 
 .service-image img {
-	width: 100%;
+	/* width: 100%;
 	aspect-ratio: 1 / 0.692;
 	object-fit: cover;
 	border-radius: 20px;
-	transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out; */
+	width: 100%;
+		height: auto;
+
+  /* Key smoothing hints */
+  /* image-rendering: auto;                
+  -ms-interpolation-mode: bicubic;      
+  image-rendering: optimizeQuality;      
+  image-rendering: -webkit-optimize-contrast;
+  backface-visibility: hidden;          
+  transform: translateZ(0);    */
 }
 
 .service-image:hover img {
