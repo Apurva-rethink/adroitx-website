@@ -1664,6 +1664,7 @@ body:has(.offcanvas) {
 
 .service-item:hover {
 	transform: translateY(-3px);
+	box-shadow: 0 0 40px #baff22, inset 0 0 25px rgba(0, 255, 120, 0.8);
 }
 
 .service-item::before {
